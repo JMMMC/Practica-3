@@ -252,7 +252,7 @@ transd = np.zeros((col, fil, dim))
 for i in range(fil):
     for j in range(col):
         for k in range (dim):
-            transd[j][i][k] = RGBimg1[i][j][k]
+            transd[j][i][k] = RGBimg2[i][j][k]
 transd = transd.astype(np.uint8)
 namme = 'Transpuesta Derecha'
 Impresion(transd,namme)
